@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        body {
+            background-color: lightgreen;
+        }
+        .table{
+            background-color: white;
+            border-radius: 15px;
+            margin-left: 220px;
+            margin-right: 300px;
+            margin-top: 80px;
+            margin-bottom: 100px;
+            padding: 15px;
+            padding-left: 25px;
+            padding-right: 400px;
+        }
+        .heading{
+            padding-top: 5px;
+            font-size: 31px;
+            text-shadow: 1px 2px black;
+        }
+        .italic{
+            color: rgb(163, 160, 160);
+            padding-top: 9px;
+            font-size: 22px;
+
+        }
+        .input{
+            margin-top: 14px;
+            padding: 5px;
+           border: 1px solid lightgrey;
+        }
+        .btn1{
+            background-color: rgb(85, 140, 228);
+            border: none;
+            margin: 4px 2px;
+            border-radius: 25px ;
+            border-color: rgb(18, 60, 199);
+            font-size: 16px;
+            padding: 10px 24px;
+            color: white;
+            
+        }
+        .list{
+            font-size: 20px;
+            margin-left: 20px;
+            color: rgb(110, 107, 107);
+        }
+        .cut{
+            background-color: rgb(189, 196, 202);
+            
+        }
+        .btn2{
+            padding: 10px 30px;
+            background-color: rgb(85, 140, 228);
+            margin-left: 25px;
+            border-radius: 20px;
+            border: none;
+            margin-right: -16px;
+        }
+        .btn3{
+            background-color: brown;
+            padding: 10px 30px;
+            margin-left: 25px;
+            border-radius: 20px;
+            border: none;
+            margin-right: -16px;
+        }
+        .btn4{
+            background-color: limegreen;
+            padding: 10px 30px;
+            
+            margin-left: 25px;
+            border-radius: 20px;
+            border: none;
+            margin-right: -16px;
+        }
+             
+            
+    </style>
+</head>
+
+<body>
+    <div class="table">
+        <div class="heading">
+            <b>My To-do List</b>
+        </div>
+        <div class="italic"><i>Double-click an item to mark it complete</i></div>
+        <input  type="text"  class="input">
+        <button type="button" class="btn1"><b>Add</b></button>
+        <ol class="list">
+            <li>
+                My
+            </li>
+           <del ><li class="cut">to-do</li></del>
+           <li>list</li>
+        </ol>
+        <button type="submit" class="btn2">Clear Completed</button>
+        <button type="submit" class="btn3">Empty List</button>
+        <button type="submit" class="btn4">Save List</button>
+    </div>
+
+</body>
+
+</html>
