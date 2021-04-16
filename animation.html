@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            background-color: black;
+        }
+        /* #rabbit {
+            position: absolute;
+            right: 0;
+            transition: right 5s linear 0s, opacity 3s linear 0s;
+        } */
+
+        /* opacity ranges from 0 to 1  */
+
+        /* #rabbit:hover {
+            right: 800px;
+            opacity: 0;
+        } */
+
+
+        /* #parent:hover{
+            background-color: green;;
+        }
+
+        #parent{
+            width:100px;
+            height: 100px;
+            background-color: orange;
+        } */
+
+        @keyframes myBox {
+
+            from{
+                transform: scale(1);
+            }
+
+            to{
+                transform: scale(1.1);
+            }
+        }
+
+            /* 0% {
+                background-color: orange;
+            }
+
+            
+            9% {
+                background-color: yellow;
+            }
+
+
+
+            25% {
+                background-color: red;
+            }
+
+            50% {
+                background-color: purple;
+            }
+
+            75% {
+                background-color: pink;
+            }
+
+
+            100% {
+                background-color: blue;
+            } */
+
+            /* from{
+                background-color: orange;
+            }
+
+            to{
+                background-color: green;
+            } */
+        
+
+        .box{
+           
+            margin-left: 5px;
+            width: 100px;
+            height: 100px;
+            background-color:cyan;
+            border: 4px solid yellow;
+
+            /* transition: background-color 5s linear 0s, width 2s linear 0s; */
+        }
+        .box:hover{
+            /* width:120px;
+            height: 1200px; */
+            background: #000;
+             animation: myBox 1s linear 0s; 
+            
+            /* transform: rotate(20deg) scale(0.5) ; */
+             
+        }
+
+        /* #parent:hover {
+            background-color: green;
+            width: 600px;
+        }
+
+        #myiMG {
+            width:500px;
+            transform: rotate(20deg) scale(0.5) ;
+            /* transition: transform 1s ease-in 0s, width 5s linear 0s; */
+        /* } */
+        /* #myiMG:hover{
+            transform: rotate(70deg);
+            width:600px;
+        } */
+
+        /* #secIMG{
+            width:400px;
+        }  */
+
+        /* #myFan{
+            animation: myAnimation 1s linear 0s;
+            animation-iteration-count: infinite;
+        } */
+        .center{
+            display: flex;
+            justify-content: center;
+           
+            
+        }
+       
+    </style>
+
+</head>
+
+<body>
+    
+    <div class="center">
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    </div>
+
+    <!-- <img id="myFan" src="fan.png" alt=""> -->
+
+    <!-- <div id="parent">
+
+    </div>
+
+    <img id="myiMG" src="biryani.webp" alt="">
+    <img id="secIMG" src="biryani.webp" alt=""> -->
+
+    <!-- Two types of animations -->
+    <!-- 1).Simple animations, transition -->
+    <!-- 1).Advance animations, animations -->
+
+    <!-- <img id="rabbit" src="FreshWeeklyCaribou-small.gif" alt=""> -->
+
+</body>
+
+</html>

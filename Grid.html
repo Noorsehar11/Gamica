@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .item {
+            padding: 2px;
+        }
+
+        .item:nth-child(1) {
+            background: orange;
+            grid-area: a1;
+        }
+
+        .item:nth-child(2) {
+            background: blueviolet;
+            grid-area: a2;
+        }
+
+        .item:nth-child(3) {
+            background: pink;
+            grid-area: a3;
+        }
+
+        .item:nth-child(4) {
+            background: olive;
+            grid-area: a4;
+        }
+
+        .item:nth-child(5) {
+            background: orchid;
+            grid-area: a5;
+        }
+
+        .item:nth-child(6) {
+            background: darkblue;
+            grid-area: a6;
+        }
+
+        .item:nth-child(7) {
+            background: darkolivegreen;
+            grid-area: a7;
+        }
+
+        .item:nth-child(8) {
+            background: yellow;
+            grid-area: a8;
+         }
+
+        .item:nth-child(9) {
+            background: firebrick;
+            grid-area: a9;
+        }
+
+        .item {
+            margin: 2px;
+            border: 2px solid black;
+        }
+
+        .parent {
+            display: grid;
+            height: 500px;
+            width: 500px;
+            text-align: center;
+            grid-template:
+                "a1 a2 a3"
+                "a1 a5 a3"
+                "a9 a9 a9";
+        }
+        .parent2{
+            display: grid;
+            height: 500px;
+            width: 500px;
+            text-align: center;
+            grid-template:
+                "a1 a1 a1 a1"
+                "a2 a3 a4 a4"
+                "a2 a3 a4 a4"
+                "a6 a6 a8 a8"
+        }
+    </style>
+</head>
+
+<body>
+    <div class="parent">
+        <div class="item">1</div>
+        <div class="item">O</div>
+        <div class="item">1</div>
+        <div class="item">0</div>
+        <div class="item">1</div>
+        <div class="item">0</div>
+        <div class="item">1</div>
+        <div class="item">0</div>
+        <div class="item">1</div>
+    </div>
+    <div class="parent2">
+        <div class="item">1</div>
+        <div class="item">O</div>
+        <div class="item">1</div>
+        <div class="item">0</div>
+        <div class="item">1</div>
+        <div class="item">0</div>
+        <div class="item">1</div>
+        <div class="item">0</div>
+        <div class="item">1</div>
+    </div>
+</body>
+
+</html>
